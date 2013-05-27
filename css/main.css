@@ -1,0 +1,49 @@
+html, body {
+	font-family: "Helvetica", Arial, Sans;
+	color: #e1f4fd;
+}
+
+/* Header */
+
+header {
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 280px;
+	height: 140px;
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+header * {
+	margin: 0 20px 0 20px;
+}
+
+header *:first-child {
+	padding-top: 20px;
+}
+
+/* Nav */
+
+nav li {
+	background-color: #e1f4fd;
+	border: 1px solid rgba(0, 0, 0, 0.7);
+	width: 90%;
+	height: 20px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	text-indent: 5px;
+	padding-top: 2px;
+	font-size: .9em;
+}
+
+nav li a {
+	color: rgba(0, 0, 0, 0.8);
+	text-decoration: none;
+}
+
+/* Footer */
+
+footer {
+	height: 50px;
+	background-color: rgb(243, 112, 33);
+	font-size: 10px;
+}
