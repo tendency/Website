@@ -38,11 +38,25 @@ footer, #wrapper:after {
 html, body {
 	font-family: "Helvetica Neue", Arial, Sans;
 	color: #e1f4fd;
-	background: url("../images/old/newImages/newStudio.jpg") no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+body.homePage {
+    background: url("../images/old/newImages/newStudio.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.studioArt {
+    background: url("../images/old/newImages/Atlanta_College_of_Art_Print_Making_Studio.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.artHistory {
+	background: url("../images/old/newImages/100_0972.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 #wrapper {
