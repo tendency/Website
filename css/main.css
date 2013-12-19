@@ -45,20 +45,25 @@ html, body {
 }
 
 body.homePage {
-    background: url("../images/old/newImages/newStudio.jpg") no-repeat center center fixed;
+    background: url("../images/background/newStudio.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
 body.studioArt {
-    background: url("../images/old/newImages/Atlanta_College_of_Art_Print_Making_Studio.jpg") no-repeat center center fixed;
+    background: url("../images/background/printmakingStudio.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
 body.artHistory {
-	background: url("../images/old/newImages/100_0972.jpg") no-repeat center center fixed;
+	background: url("../images/background/roundRoom.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
+body.faculty {
+	background: url("../images/background/cfaExterior.jpg") no-repeat center center fixed;
+  background-size: cover;
+
+}
 #wrapper {
 	width: 1210px;
 	margin: 0 auto;
@@ -149,34 +154,39 @@ nav li a:hover {
 	line-height: 1.5
 }
 
-.main .events {
+.main .primaryContainer {
 	background-color: rgba(0, 0, 0, 0.7);
 	padding: 22px;
 	width: 680px;
 	float: left;
 }
 
-.main .events img {
+.main .primaryContainer img {
 	margin-bottom: 110px;
 	margin-right: 10px;
 	border: 2px solid gray;
 }
 
-.main .events .description {
+.main .primaryContainer .description {
 	width: 330px;
 	display: inline-block;
 	float: right;
 }
 
-
-.main .news {
+.main .secondaryContainer {
 	background-color: rgba(0, 0, 0, 0.7);
 	width: 280px;
 	float: right;
 }
 
-.main .news .description {
+.main .secondaryContainer .description {
 	padding: 25px;
+}
+
+.main .facultyContainer {
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 1038px;
+	float: left;
 }
 
 /* Footer */
