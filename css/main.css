@@ -45,12 +45,12 @@ html, body {
 }
 
 body.homePage {
-    background: url("../images/background/newStudio.jpg") no-repeat center center fixed;
+    background: url("../images/background/newStudio2.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
 body.studioArt {
-    background: url("../images/background/printmakingStudio.jpg") no-repeat center center fixed;
+    background: url("../images/background/drawingStudio.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
