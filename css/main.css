@@ -189,6 +189,63 @@ nav li a:hover {
 	float: left;
 }
 
+img.mark {
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	border: 2px solid gray;
+	
+}
+
+img.lynette{
+	width: 200px;
+	height: 200px;
+	float:left;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	border: 2px solid gray;
+	
+}
+
+img.tony{
+	width: 200px;
+	height: 200px;
+	float:left;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	border: 2px solid gray;
+}	
+
+img.tim{
+	width: 200px;
+	height: 200px;
+	float:left;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	border: 2px solid gray;
+}
+
+img.greg{
+	width: 200px;
+	height: 200px;
+	float:left;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	border: 2px solid gray;
+}
+
 /* Footer */
 
 footer {
@@ -230,3 +287,4 @@ footer div.contact ul li {
 
 footer div.copyright {
 }
+
