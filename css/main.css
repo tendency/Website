@@ -189,31 +189,62 @@ nav li a:hover {
 	float: left;
 }
 
+img.mark {
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	border: 2px solid gray;
+	
+}
 
-.main .facultyContainer img{
-	width: 325px;
-	height: 325px;
+img.lynette{
+	width: 200px;
+	height: 200px;
+	float:left;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	border: 2px solid gray;
+	
+}
+
+img.tony{
+	width: 200px;
+	height: 200px;
+	float:left;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	border: 2px solid gray;
+}	
+
+img.tim{
+	width: 200px;
+	height: 200px;
+	float:left;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-left: 20px;
 	border: 2px solid gray;
 }
-.main .facultyContainer figure{
-	float: left;
-	margin-top: 20px;
-	margin-right: 20px;
-	margin-bottom: 30px;
-	margin-left: 25px;
+
+img.greg{
+	width: 200px;
+	height: 200px;
+	float:left;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	border: 2px solid gray;
 }
-
-.main .facultyContainer figcaption{
-	float:right;
-	margin-top: 10px;
- 	font-family: "Helvetica Neue", Arial, Sans;
-	font-size: 13px;
-}
-
-
-
-
-
 
 /* Footer */
 
