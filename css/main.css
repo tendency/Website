@@ -183,69 +183,51 @@ nav li a:hover {
 	padding: 25px;
 }
 
-.main .facultyContainer {
+.main .facultyProfileContainer {
 	background-color: rgba(0, 0, 0, 0.7);
 	width: 1038px;
 	float: left;
 }
 
-img.mark {
-	width: 200px;
-	height: 200px;
-	float: left;
-	padding-top: 20px;
-	padding-right: 40px;
-	padding-bottom: 40px;
-	padding-left: 20px;
-	border: 2px solid gray;
-	
+.main .facultyProfileContainer figure{
+	float:left;
+	margin-top: 20px;
+	margin-right: 25px;
+	margin-bottom: 30px;
+	margin-left: 20px;
 }
 
-img.lynette{
+.main .facultyProfileContainer img {
 	width: 200px;
 	height: 200px;
-	float:left;
-	padding-top: 20px;
-	padding-right: 40px;
-	padding-bottom: 40px;
-	padding-left: 20px;
-	border: 2px solid gray;
-	
-}
-
-img.tony{
-	width: 200px;
-	height: 200px;
-	float:left;
-	padding-top: 20px;
-	padding-right: 40px;
-	padding-bottom: 40px;
-	padding-left: 20px;
-	border: 2px solid gray;
-}	
-
-img.tim{
-	width: 200px;
-	height: 200px;
-	float:left;
-	padding-top: 20px;
-	padding-right: 40px;
-	padding-bottom: 40px;
-	padding-left: 20px;
 	border: 2px solid gray;
 }
 
-img.greg{
-	width: 200px;
-	height: 200px;
-	float:left;
-	padding-top: 20px;
-	padding-right: 40px;
-	padding-bottom: 40px;
-	padding-left: 20px;
-	border: 2px solid gray;
+.main .facultyProfileContainer figcaption{
+	height:40px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-family: "Helvetica Neue", Arial, Sans;
+	font-size: 13px;
 }
 
+.main .facultyProfileContainer figcaption a{
+	color: #e1f4fd;
+	text-decoration: none;
+}
+
+.main .facultyProfileContainer figcaption a:hover{
+	text-decoration: none;
+	color: rgba(245, 110, 68, .5);
+}
+
+.main .facultyProfileContainer .description div{
+	width: 300px;
+	float:left;
+	margin-top: 20px;
+	margin-right: 30px;
+
+}
 /* Footer */
 
 footer {
