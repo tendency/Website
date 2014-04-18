@@ -60,7 +60,7 @@ body.artHistory {
 }
 
 body.faculty {
-	background: url("../images/background/cfaExterior.jpg") no-repeat center center fixed;
+	background: url("../images/background/mark_background.jpg") no-repeat center center fixed;
   background-size: cover;
 
 }
@@ -186,11 +186,12 @@ nav li a:hover {
 
 .main .facultyProfileContainer {
 	background-color: rgba(0, 0, 0, 0.8);
-	width: 1038px;
+	width: 740px;
 	float: left;
 }
 
 .main .facultyProfileContainer figure{
+	width: 250px;
 	float:left;
 	margin-top: 25px;
 	margin-right: 20px;
@@ -229,12 +230,12 @@ nav li a:hover {
 
 .main .facultyProfileContainer .interaction .name {
 	padding-top: 20px;
-	font-size: 25px;
+	font-size: 18px;
 	font-weight: 500;
 }
 
 .main .facultyProfileContainer .interaction .title {
-	font-size: 18px;
+	font-size: 15px;
 }
 
 .main .facultyProfileContainer .interaction .contact {
@@ -242,20 +243,14 @@ nav li a:hover {
 	font-size: 15px;
 }
 
-.main .facultyProfileContainer .description .statement{
-	width: 330px;
-	float:left;
+.main .facultyProfileContainer .description {
+	float:right;
+	width:360px;
 	margin-top: 20px;
 	margin-right: 30px;
-
 }
-.main .facultyProfileContainer .description .accomplishments{
-	width: 200px;
-	float:left;
-	margin-top: 20px;
-	margin-right: 30px;
 
-}
+
 /* Footer */
 
 footer {
