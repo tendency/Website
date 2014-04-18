@@ -84,7 +84,7 @@ header {
 	background-color: rgba(0, 0, 0, 0.7);
 	width: 280px;
 	height: 130px;
-	font-size: 19pt;
+	font-size: 25px;
 	font-weight: 500;
 	letter-spacing: 1px;
 	float: right;
@@ -95,11 +95,11 @@ header * {
 }
 
 header *:first-child {
-	padding-top: 20px;
+	margin-top: 20px;
 }
 
 header a {
-	color: #e1f4fd;
+	color: #ccffff;
 	text-decoration: none;
 }
 
@@ -118,7 +118,7 @@ nav {
 }
 
 nav li {
-	background-color: #e1f4fd;
+	background-color: #ccffff;
 	border: 2px solid rgba(0, 0, 0, 0.7);
 	height: 30px;
 	margin-bottom: 10px;
@@ -141,23 +141,24 @@ nav li a:hover {
 
 .main .description .title {
 	margin-bottom: 5px;
-	color: rgb(230, 255, 255);
+	color: #ccffff;
 	font-size: 20px;
-	font-weight: 500;
+	font-weight: 400;
 	letter-spacing: 1px;
 }
 
 .main .description .body {
 	color: white;
 	margin-bottom: 20px;
-	font-size: 15px;
-	line-height: 1.5
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.5;
 }
 
 .main .primaryContainer {
-	background-color: rgba(0, 0, 0, 0.7);
-	padding: 22px;
+	background-color: rgba(0, 0, 0, 0.8);
 	width: 680px;
+	padding:25px;
 	float: left;
 }
 
@@ -174,7 +175,7 @@ nav li a:hover {
 }
 
 .main .secondaryContainer {
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.8);
 	width: 280px;
 	float: right;
 }
@@ -184,17 +185,17 @@ nav li a:hover {
 }
 
 .main .facultyProfileContainer {
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.8);
 	width: 1038px;
 	float: left;
 }
 
 .main .facultyProfileContainer figure{
 	float:left;
-	margin-top: 20px;
-	margin-right: 25px;
+	margin-top: 25px;
+	margin-right: 20px;
 	margin-bottom: 30px;
-	margin-left: 20px;
+	margin-left: 25px;
 }
 
 .main .facultyProfileContainer img {
@@ -221,8 +222,35 @@ nav li a:hover {
 	color: rgba(245, 110, 68, .5);
 }
 
-.main .facultyProfileContainer .description div{
-	width: 300px;
+.main .facultyProfileContainer .interaction img {
+	width:300px;
+	height:300px;
+}
+
+.main .facultyProfileContainer .interaction .name {
+	padding-top: 20px;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.main .facultyProfileContainer .interaction .title {
+	font-size: 18px;
+}
+
+.main .facultyProfileContainer .interaction .contact {
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+.main .facultyProfileContainer .description .statement{
+	width: 330px;
+	float:left;
+	margin-top: 20px;
+	margin-right: 30px;
+
+}
+.main .facultyProfileContainer .description .accomplishments{
+	width: 200px;
 	float:left;
 	margin-top: 20px;
 	margin-right: 30px;
@@ -233,7 +261,7 @@ nav li a:hover {
 footer {
 	height: 50px;
 	width: 100%;
-	background-color: rgba(0, 0, 0, .7);
+	background-color: rgb(255, 255, 255);
 	font-size: 12px;
 }
 
@@ -251,12 +279,12 @@ footer .wrapper div {
 
 footer a {
 	padding-left: 17px;
-	color: rgb(225, 244, 253);
+	color: rgb(134, 134, 134);
 	text-decoration: none;
 }
 
 footer a:hover {
-	color: rgba(245, 110, 68, .5);
+	color: rgb(245, 110, 68);
 }
 
 footer div.contact {
@@ -268,5 +296,6 @@ footer div.contact ul li {
 }
 
 footer div.copyright {
+	color: rgb(134, 134, 134);
 }
 
