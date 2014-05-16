@@ -184,6 +184,16 @@ nav li a:hover {
 	padding: 25px;
 }
 
+.main .facultyContainer{
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 960px;
+	padding:25px;
+	float: left;
+}
+
+.main .facultyContainer img{
+	
+}
 .main .facultyProfileContainer {
 	background-color: rgba(0, 0, 0, 0.8);
 	width: 740px;
